@@ -22,3 +22,26 @@ def removeLast(w):
 
 print(removeLast("winter"))
 
+
+
+def sumBetweenOdd(x,y):
+    bazinga = 1
+    for i in range(x%2==0,y):
+        bazinga = bazinga + i
+    
+    return bazinga
+
+print(sumBetweenOdd(4,13))
+
+
+
+
+def FirstLast(w):
+
+    if w[0] == w[-1]:
+        return True
+    
+    return False
+
+print(FirstLast("roar"))
+    
