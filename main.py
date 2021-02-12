@@ -36,12 +36,12 @@ print(sumBetweenOdd(4,13))
 
 
 
-def FirstLast(w):
+def firstLast(w):
 
     if w[0] == w[-1]:
         return True
     
     return False
 
-print(FirstLast("roar"))
+print(firstLast("roar"))
     
